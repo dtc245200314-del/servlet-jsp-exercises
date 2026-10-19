@@ -1,0 +1,26 @@
+PASS 1 (200): Danh sách sản phẩm
+PASS 2 (200): Bàn phím cơ
+PASS 3 (200): Thêm sản phẩm
+PASS 4 (403): Phiên biểu mẫu không hợp lệ
+PASS 5 (200): Đã thêm sản phẩm
+PASS 6 (200): HTTP-QA-70c57ba8
+PASS 7 (200): value="HTTP-QA-70c57ba8"
+PASS 8 (200): value="123.45"
+PASS 9 (200): value="7"
+PASS 10 (200): Đã cập nhật sản phẩm
+PASS 11 (200): Sản phẩm đã sửa 70c57ba8
+PASS 12 (200): Xác nhận xóa
+PASS 13 (200): Sản phẩm đã sửa 70c57ba8
+PASS 14 (403): Phiên biểu mẫu không hợp lệ
+PASS 15 (200): Sản phẩm đã sửa 70c57ba8
+PASS 16 (200): Đã xóa sản phẩm
+PASS 17 (404): Không tìm thấy sản phẩm
+PASS 18 (400): ID sản phẩm không hợp lệ
+PASS 19 (400): Chức năng không hợp lệ
+PASS 20 (400): Tên sản phẩm phải có
+PASS 21 (400): Giá phải không âm
+PASS 22 (400): 2 chữ số thập phân
+PASS 23 (400): Số lượng phải là số nguyên
+PASS 24 (200): &lt;script&gt;alert(
+PASS 25 (200): Đã xóa sản phẩm
+All 25 final-exam HTTP/JSP checks passed.

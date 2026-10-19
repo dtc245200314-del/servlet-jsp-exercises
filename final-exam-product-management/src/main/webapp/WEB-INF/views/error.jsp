@@ -1,0 +1,1 @@
+<%@ page pageEncoding="UTF-8" %><%@ include file="header.jspf" %><section class="panel form-panel"><h1>Không thể thực hiện</h1><p class="error" role="alert"><c:out value="${error}"/></p><a class="button secondary" href="products">Về danh sách sản phẩm</a></section><%@ include file="footer.jspf" %>

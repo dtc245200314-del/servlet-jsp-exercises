@@ -19,3 +19,11 @@ JSP scriptlets are used only in the two exercises that explicitly teach them. La
 `mvn test` checks arithmetic, discount boundaries, invalid numeric input, division by zero, dictionary normalization and HTML escaping. HTTP/JSP deployment verification is recorded separately after execution. Dependencies are pinned in pom.xml. Source is original implementation with Codex assistance based on CodeGym's requirements.
 
 Đã chạy trên Tomcat 10.1.60 / JDK 17: 24 kiểm tra HTTP/JSP đều qua, gồm render JSTL, UTF-8, dữ liệu sai, XSS được escape và chia 0. Kết quả lưu trong http-verification.log; chạy lại bằng PowerShell 7: ./verify-http.ps1 -BaseUrl http://localhost:8080/practice .
+
+## Bài kiểm tra cuối module — 544
+
+Dự án độc lập JSP/Servlet/JDBC/MySQL tại [final-exam-product-management](final-exam-product-management/README.md).
+
+**Tải file nộp:** [DTC245200314_FinalExam.zip](final-exam-product-management/dist/DTC245200314_FinalExam.zip).
+
+File ZIP gồm toàn bộ mã nguồn, pom.xml, database.sql, hướng dẫn, kiểm thử và kết quả QA. Đã qua 10 kiểm thử, 25 kiểm tra HTTP/JSP và thao tác CRUD qua trình duyệt trên Tomcat/MySQL thật.
