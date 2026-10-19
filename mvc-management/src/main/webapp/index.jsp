@@ -1,0 +1,1 @@
+<%@ page contentType="text/html;charset=UTF-8" %><%@ taglib prefix="c" uri="jakarta.tags.core" %><!DOCTYPE html><html lang="vi"><head><meta charset="UTF-8"><title>MVC Management</title></head><body><h1>Bộ ứng dụng MVC</h1><a href="customers">Quản lý khách hàng</a><br><a href="products">Quản lý sản phẩm</a></body></html>

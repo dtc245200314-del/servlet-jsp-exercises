@@ -1,0 +1,2 @@
+<%@ page pageEncoding="UTF-8" %>
+<%@ page contentType="text/html;charset=UTF-8" %><%@ taglib prefix="c" uri="jakarta.tags.core" %><!doctype html><html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>User Management · JDBC</title><link rel="stylesheet" href="style.css"></head><body><main><header><h1>User Management</h1><p><a href="users?mode=sql">PreparedStatement</a> · <a href="users?mode=sp">Stored Procedure</a></p><small>Chế độ: <c:out value="${mode}"/> · Dữ liệu thực hành</small></header>

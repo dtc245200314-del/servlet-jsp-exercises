@@ -1,0 +1,1 @@
+package vn.codegym.mvc.service;import vn.codegym.mvc.model.Product;public final class ProductServiceImpl extends MemoryService<Product> implements ProductService {public ProductServiceImpl(){create(new Product("Tai nghe Studio",new java.math.BigDecimal("500000.00"),"Tai nghe dùng cho học tập","Studio Demo"));}}

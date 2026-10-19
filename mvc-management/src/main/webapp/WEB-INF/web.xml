@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+  <display-name>Customer and Product MVC Management</display-name>
+  <welcome-file-list><welcome-file>index.jsp</welcome-file></welcome-file-list>
+  <session-config><cookie-config><http-only>true</http-only></cookie-config></session-config>
+</web-app>

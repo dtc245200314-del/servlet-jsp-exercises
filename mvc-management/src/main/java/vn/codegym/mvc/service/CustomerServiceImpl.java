@@ -1,0 +1,1 @@
+package vn.codegym.mvc.service;import vn.codegym.mvc.model.Customer;public final class CustomerServiceImpl extends MemoryService<Customer> implements CustomerService {public CustomerServiceImpl(){create(new Customer("Nguyễn An","an@example.com","Hà Nội"));}}

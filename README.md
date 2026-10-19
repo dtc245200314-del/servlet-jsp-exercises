@@ -27,3 +27,12 @@ Dự án độc lập JSP/Servlet/JDBC/MySQL tại [final-exam-product-managemen
 **Tải file nộp:** [DTC245200314_FinalExam.zip](final-exam-product-management/dist/DTC245200314_FinalExam.zip).
 
 File ZIP gồm toàn bộ mã nguồn, pom.xml, database.sql, hướng dẫn, kiểm thử và kết quả QA. Đã qua 10 kiểm thử, 25 kiểm tra HTTP/JSP và thao tác CRUD qua trình duyệt trên Tomcat/MySQL thật.
+
+## MVC và JDBC — bổ sung ngày 20/10/2026
+
+| Bài | Dự án độc lập |
+| --- | --- |
+| 498 Quản lý khách hàng; 499 Quản lý sản phẩm | [mvc-management](mvc-management/README.md) — Model, Service, Servlet, JSP/JSTL, lưu Map trong bộ nhớ, CRUD và tìm tên |
+| 510, 511, 524, 525, 526, 527, 528, 529 | [user-jdbc-management](user-jdbc-management/README.md) — PreparedStatement, CallableStatement, tìm quốc gia/sắp xếp tên, user+permissions, commit/rollback |
+
+Hai ứng dụng đã đóng gói WAR và chạy trên Tomcat 10.1.60 / Java 17. Kết quả: 3 kiểm thử MVC + 8 kiểm thử JDBC trên MySQL thật (không bỏ qua), 69 kiểm tra HTTP/JSP thành công. Mã chạy lại và kết quả nằm tại [verify-mvc-jdbc-http.py](verify-mvc-jdbc-http.py) và [mvc-jdbc-http-results.json](mvc-jdbc-http-results.json). README từng dự án có hướng dẫn cấu hình và triển khai; không chứa thông tin đăng nhập.

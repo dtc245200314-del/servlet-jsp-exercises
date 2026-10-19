@@ -1,0 +1,281 @@
+{
+  "checks": [
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 403",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 400",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "customers HTML escaped",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "customers update visible",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "customers search finds update",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "customers delete removed",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/customers HTTP 404",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 403",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 400",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "products HTML escaped",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "products update visible",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "products search finds update",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "products delete removed",
+      "passed": true
+    },
+    {
+      "name": "/mvc-management/products HTTP 404",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 403",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 400",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sql escaped user",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sql user update",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sql country filter",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sql user deleted",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 404",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 403",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 400",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sp escaped user",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sp user update",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sp country filter",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "sp user deleted",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 404",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "without-failure actual DB result",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "with-failure actual DB result",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "with-success actual DB result",
+      "passed": true
+    },
+    {
+      "name": "/users/users HTTP 200",
+      "passed": true
+    },
+    {
+      "name": "user-rollback actual DB result",
+      "passed": true
+    }
+  ],
+  "passed": 69
+}

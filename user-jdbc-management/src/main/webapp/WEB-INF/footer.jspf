@@ -1,0 +1,2 @@
+<%@ page pageEncoding="UTF-8" %>
+<footer><p><a href="users?mode=<c:out value='${mode}'/>">Về danh sách users</a></p><small>MVC · Servlet/JSP/JSTL/JDBC · CodeGym</small></footer></main></body></html>

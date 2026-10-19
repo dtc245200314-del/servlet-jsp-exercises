@@ -1,0 +1,1 @@
+package vn.codegym.mvc.service; import vn.codegym.mvc.model.Product;import java.util.List;public interface ProductService {List<Product> findAll();List<Product> search(String q);Product findById(int id);Product create(Product item);boolean update(Product item);boolean delete(int id);}

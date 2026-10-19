@@ -1,0 +1,1 @@
+package vn.codegym.mvc.service; import vn.codegym.mvc.model.Customer;import java.util.List;public interface CustomerService {List<Customer> findAll();List<Customer> search(String q);Customer findById(int id);Customer create(Customer item);boolean update(Customer item);boolean delete(int id);}
